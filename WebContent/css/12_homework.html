@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Insert title here</title>
+		<style>
+			* {
+				margin: 0px;
+				padding: 0px;
+			}
+	
+			#header {
+				width: 1688px;
+			}
+			
+			#wrapper {
+				display: flex;
+				flex-direction: column;
+				width: 1200px;
+				height: 900px;
+				border: 1px solid black;
+				margin: 0px auto;
+			}
+			#top{
+				border: 1px solid red;
+			}
+			
+			#top_menu {
+				display: flex;
+				width:100%;
+			}
+			#top .top {
+				width: 100%;
+			}
+			
+			.menu {
+				width: 100%;
+				
+			}
+			
+			#center {
+				border: 1px solid black;
+				display: flex;
+				width:100%;
+			}
+			
+			#footer{
+				border: 1px solid black;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<div id="header">
+			<img width=100% src="/webbasic/images/header_top.png">
+		</div>
+		
+		<div id="wrapper" style="flex-grow: 2">
+		
+			<div id="top" >
+				<div>
+					<img class="top" src="/webbasic/images/header_top1.png">
+				</div>
+				
+				<div>
+					<img class="top" src="/webbasic/images/header_top2.png">
+				</div>
+				
+				<div>
+					<div id="top_menu">
+						<img class="menu" style="flex-grow: 8" src="/webbasic/images/header_menu.png" >
+						<img class="menu" style="flex-grow: 2" src="/webbasic/images/header_menu1.png">
+					</div>
+				</div>
+			</div>
+			
+			<div id="center" style="flex-grow: 3">
+				<div class="leftside">
+				
+				</div>
+				
+				<div class="rightside">
+				
+				</div>
+				
+			</div>
+			
+			<div id="footer"  style="flex-grow: 5">
+			</div>
+			
+		</div>
+	</body>
+</html>
